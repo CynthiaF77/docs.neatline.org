@@ -15,7 +15,7 @@ There are two methods of creating image-based exhibits, depending on your needs:
 
 ## Creating an Image-based Exhibit
 
-To create an exhibit using an image base layer, follow the instructions for [Creating New Exhibits](creating-exhibits.html), using the following settings:
+To create an exhibit using an image base layer, follow the instructions for [Creating New Exhibits](creating-exhibits.html), using the following Exhibit Settings:
 
 ### Spatial Layers
 
@@ -25,7 +25,7 @@ Leave the Enabled Spatial Layers selection empty, and select the option 'None (I
 
 ### Method 1: Using a Static Image {#static-image}
 
-To use a static image brackgound layer, your image must be web-accessible. If you need a place to host an image file, add it as an item within your Omeka collection. Enter your image url in the option for Image Layer:
+To use a static image background layer, your image must be web-accessible. If you need a place to host an image file, add it as an item within your Omeka collection. Enter your image url in the option for Image Layer:
 
 ![Screenshot using static image](images/image-layer.JPG)
 
