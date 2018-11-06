@@ -41,7 +41,9 @@ layout: default
     * [Default Layer](creating-exhibits.html#default-layer)
     * [Public](creating-exhibits.html#public)
 
-- [Map-base Exhibits]()
+- [Map-based Exhibits](map-based-exhibits.html)
+    * [Using the Provided Spatial Layers](map-based-exhibits.html#using-the-provided-spatial-layers)
+    * [Using a Custom Map Default Layer](map-based-exhibits.html#using-a-custom-map-default-layer)
 
 - [Image-based Exhibits](image-based-exhibits.html)
     * [Creating an Image-based Exhibit](image-based-exhibits.html#creating-an-image-based-exhibit)
@@ -59,6 +61,8 @@ layout: default
 - [Managing User Permissions](user-permissions.html)
     * [User permissions overview](user-permissions.html#user-permissions-overview)
     * [Working with user “groups”](user-permissions.html#working-with-user-groups)
+    
+- [Publishing Exhibits](publishing-exhibits.html)
 
 ## Creating Custom Image Layers
 
