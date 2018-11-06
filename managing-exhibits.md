@@ -13,7 +13,7 @@ layout: default
 
 Once you've created one or more exhibits, the "Browse Exhibits" view makes it possible to find, filter, edit, and display them. A couple of options are available for each of the exhibit listings:
 
-## [Exhibit Title]
+## Exhibit Title
 
 Click on the exhibit title to open up the editing environment for the exhibit, which makes it possible to create the collection of "records" that constitutes the exhibit's content (see the "Neatline Records: An Overview" guide for more information).
 
