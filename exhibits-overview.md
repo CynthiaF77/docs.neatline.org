@@ -19,19 +19,11 @@ These high-level configuration options are defined using the "Exhibit Settings" 
 
 Most of the work happens in the editor. You might spend just a couple minutes in the "Exhibit Settings" form, and a couple months building out the content in the editing environment.
 
-## Map exhibits vs. image exhibits
+**Continue reading the documentation on working with exhibits:**
 
-Exhibits can be grouped into two basic categories depending on the type of base layer used as the visual foundation for the project:
-
-  1. **Map-based exhibits**, which are built on top of geospatial layers - OpenStreetMap, the Google API layers, Stamen Design layers, or completely custom tile sets delivered as [WMS layers][wms], [MBTiles][mbtiles], or any other layer format supported by the [OpenLayers][openlayers] mapping library. Out of the box, Neatline comes with a core collection of general-purpose spatial layers, and makes it easy to add custom layers if you need something different.
-
-  2. **Image-based exhibits**, which can be built on top of any static, web-accessible image (.jpg, .png, etc). This makes it possible to use Neatline to create interactive editions of paintings, drawings, photographs, documents, and anything else that has some kind of two-dimensional, visual instantiation.
-
-  Exhibits built using regular, static images are easy to set up and don't require any additional server infrastructure, but there's a fundamental limitation - since the entire image has to be loaded in bulk into the in-browser application (as compared to the spatial layers, which are loaded dynamically depending on the focus and zoom of the map), the performance of the exhibit will get worse as the image gets larger. Things work well if you're working with a more or less normally-sized image (up to around 2-3000 pixels in height/width), but after that things start to get unacceptably sluggish.
-
-  If you need to use a really high-resolution image, there's an effective workaround that involes essentially tricking Neatline into thinking the image is a spatial layer - you can "faux-georeference" the static image (just assign it random, meaningless spatial coordinates), load it into [Geoserver][geoserver] as a WMS layer, and then import it into an exhibit as the sole base layer, with no map underneath. The image will be presented just as if you were using a regular static file, but you'll have all the scability that comes with a dedicated tile server.
-
-[geoserver]: http://geoserver.org/
-[mbtiles]: http://www.mapbox.com/developers/mbtiles/
-[wms]: http://en.wikipedia.org/wiki/Web_Map_Service
-[openlayers]: http://openlayers.org/
+- [**Creating New Exhibits**](creating-exhibits.html)
+- [**Map-based Exhibits**](map-based-exhibits.html)
+- [**Image-based Exhibits**](image-based-exhibits.html)
+- [**Managing Exhibits**](managing-exhibits.html)
+- [**Managing User Permissions**](user-permissions.html)
+- [**Publishing Exhibits**](publishing-exhibits.html)
