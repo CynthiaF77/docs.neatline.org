@@ -29,6 +29,10 @@ To use a static image background layer, your image must be web-accessible. If yo
 
 ![Screenshot using static image](images/image-layer.JPG)
 
+Provide a value for Zoom Levels. Consider the size of your static image file when determining zoom levels, as your image may appear pixelated if more zoom levels are provided than the image can handle. The default zoom level is 20.
+
+![Screenshot of Zoom Levels field](images/settings-zoom.png)
+
 ### Method 2: Using WMS Layers {#wms-layers}
 
 Load your "faux-georeferenced" static image into Geoserver as a WMS (Web Map Services) layer. In the Neatline Exhibit Settings, fill in the the top-level WMS address for the GeoServer installation (this always ends with /wms, and might look something like localhost:8080/GeoServer/wms). In the field for WMS Layers, enter the layer that you want assigned as the exhibit base layer:
