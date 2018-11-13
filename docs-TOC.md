@@ -112,15 +112,26 @@ layout: default
             + [Editing Longer Texts with a Text Editor](working-with-the-text-widget.html#editing-longer-texts-with-a-text-editor)
     * [Theming](working-with-the-text-widget.html#theming)
 
-## Working with Neatline Stylesheets
+## Working with the Neatline Editor
 
+- [Editor Overview](editor-overview.html)
+    * [Records Tab](editor-overview.html)
+    * [Styles Tab](editor-overview.html)
+    * [Plugins Tab](editor-overview.html)
+    
+- [Exhibit Styles Tab](exhibit-styles-tab.html)
+    * [Stylesheet Overview](exhibit-styles-tab.html#stylesheet-overview)
+    * [Default Map Focus](exhibit-styles-tab.html#default-map-focus) 
+    * [Default Map Zoom](exhibit-styles-tab.html#default-map-zoom)
+    * [Restricted Map Extent](exhibit-styles-tab.html#default-map-extent) 
+    * [Minimum Map Zoom](exhibit-styles-tab.html#minimum-map-zoom)
+    * [Maximum Map Zoom](exhibit-styles-tab.html#maximum-map-zoom)
+    
 - [Using Neatline Stylesheets](neatline-stylesheets.html)
     * [Quick reference](neatline-stylesheets.html#quick-reference)
     * [Rationale: Why use stylesheets?](neatline-stylesheets.html#rationale-why-use-stylesheets)
     * [Getting started with stylesheets](neatline-stylesheets.html#getting-started-with-stylesheets)
     * [Auto-updating stylesheet values](neatline-stylesheets.html#auto-updating-stylesheet-values)
-
-## Working with the Neatline Editor
 
 ## Records
 
@@ -130,6 +141,7 @@ layout: default
 
 - [Searching Records](searching-records.html)
 
+## Editing Neatline Records
 ## Text Tab
 
 - [Adding Text Content](text-tab.html)
