@@ -30,7 +30,6 @@ layout: default
 
 - [Exhibits Overview](exhibits-overview.html)
     * [Exhibits overview](exhibits-overview.html#exhibits-overview)
-    * [Map exhibits vs. image exhibits](exhibits-overview.html#map-exhibits-vs-image-exhibits)
 
 - [Creating New Exhibits](creating-exhibits.html)
     * [Title](creating-exhibits.html#title)
@@ -71,7 +70,7 @@ layout: default
 
 ## Creating Custom Image Layers
 
-- [Installing Geoserver]()
+- [TBD]()
 
 ## Working with Neatline Plugins
 
