@@ -40,7 +40,7 @@ You may still want one or more of the provided spatial layers to be available in
 
 2. Load your georeferenced map into Geoserver as a WMS (Web Map Services) layer. In the Neatline Exhibit Settings, fill in the the top-level WMS address for the GeoServer installation (this always ends with /wms, and might look something like localhost:8080/GeoServer/wms). In the field for WMS Layers, enter the layer that you want assigned as the exhibit default spatial layer. 
 
-(Note: only one WMS Layer can be included in the Exhibit Settings, see [Editing Imagery](style-tab-imagery.html) for including multiple custom map layers in your exhibit.)
+(**Note:** only one WMS Layer can be included in the Exhibit Settings, see [Editing Imagery](style-tab-imagery.html) for including multiple custom map layers in your exhibit.)
 
 ![Screenshot of fields filled for custom map default](images/custom-map-default.png)
 
