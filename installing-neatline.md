@@ -6,15 +6,17 @@ layout: default
 ## At a glance
 
   - Installing Neatline is a two-step process - first install Omeka, then install Neatline as a plugin for Omeka.
-  - To run Omeka and Neatline, you'll need a "LAMP stack" server - **L**inux, **A**pache, **M**ySQL, and **P**HP.
-  - This is a really common technology stack that's supported by almost any commercial webhost.
-  - If you just want to experiment with Neatline, you can install it on your own computer using a sandbox environment.
-  - Geoserver is a Java application that has different hosting requirements.
-  - You can either run your own installation of Geoserver or purchase hosting from a commercial provider.
+    * [Before you start](#before-you-start)
+    * [Installing Omeka](#installing-omeka)
+    * [Installing Neatline](#installing-nl)
+        + [NEW for Neatline 2.5.2](#new-for-neatline-252)
+        + [Configuring the Neatline Plugin (for version 2.5.2)](#configuring-nlplugin)
+  - For projects that need to incorporate custom imagery, a third piece of software called [Geoserver][geoserver] is necessary.
+    * [Installing Geoserver](#installing-geoserver)
 
 ## Before you start
 
-Omeka is a web application written with PHP and MySQL that runs on the "[LAMP stack][lamp]" (Linux, Apache, MySQL, and PHP), a ubiquitous set of technologies supported by almost any commercial or institutional hosting provider - many web hosts even provide an automatic "one-click" installer.  See the "Hosting Suggestions" guide in the Omeka documentation for a list of recommended providers. Alternatively, if you just want to experiment with Neatline in an offline setting, your can also install Omeka on a sandbox server environment running on your own computer using software packages like [MAMP][mamp], [WampServer][wamp], or [XAMPP][xampp], with the option of migrating the site to a public-facing web host at any point in the future.
+Omeka is a web application written with PHP and MySQL that runs on the "[LAMP stack][lamp]" (Linux, Apache, MySQL, and PHP), a ubiquitous set of technologies supported by almost any commercial or institutional hosting provider - many web hosts even provide an automatic "one-click" installer.  See the [Hosting Suggestions][hosting] guide in the Omeka documentation for a list of recommended providers. Alternatively, if you just want to experiment with Neatline in an offline setting, your can also install Omeka on a sandbox server environment running on your own computer using software packages like [MAMP][mamp], [WampServer][wamp], or [XAMPP][xampp], with the option of migrating the site to a public-facing web host at any point in the future.
 
 Either way, you'll need the following:
 
@@ -28,7 +30,7 @@ For more detailed system requirements, see the [Preparing to Install][preparing]
 
 First, install Omeka by following the instructions in the [Installation][install] guide.
 
-## Installing Neatline
+## Installing Neatline {#installing-nl}
 
 Once Omeka is up and running, install the Neatline plugin:
 
@@ -40,11 +42,11 @@ Once Omeka is up and running, install the Neatline plugin:
 
 You'll be redirected back to the list of plugins and see a notification saying that "The Neatline plugin was successfully installed." Over in the main vertical navigation on the left side of the screen, you'll see a new listing for **Neatline** - click there to get started.
 
-**NEW for Neatline 2.5.2:**
+### NEW for Neatline 2.5.2:
 
 Neatline users must now specify a Google Maps API Key as a configuration step after installing the **Neatline** plugin.
 
-## Configuring the Neatline Plugin 
+### Configuring the Neatline Plugin (for version 2.5.2) {#configuring-nlplugin}
 
 1. On the Plugins Screen, click the **Configure** button. ![Screenshot of Configure Button](http://scholarslab.org/wp-content/uploads/2017/06/configurebutton.png)
 
@@ -60,10 +62,11 @@ Neatline users must now specify a Google Maps API Key as a configuration step af
 6. Click the green **Save Changes** button. Your installation is now properly configured to use any of the Google base maps that are packaged with the **Neatline** plugin.
 
 
-
 ## Installing Geoserver
 
-With Omeka and Neatline installed, you can get started building exhibits on top of modern-geography base layers (OpenStreetMap, Google Maps, and Stamen Maps). For many use-cases, the default layers are more than sufficient, and no other action is necessary. For projects that need to incorporate custom imagery, though - for example, historical projects that want to overlay georeferenced maps on top of the default layers, or art history projects that need to use scans of paintings as base layers in exhibits - a third piece of software called [Geoserver][geoserver] is necessary.
+With Omeka and Neatline installed, you can get started building exhibits on top of modern-geography base layers (OpenStreetMap, Google Maps, and Stamen Maps). For many use-cases, the default layers are more than sufficient, and no other action is necessary. 
+
+For projects that need to incorporate custom imagery - for example, historical projects that want to overlay georeferenced maps on top of the default layers, or art history projects that need to use scans of paintings as base layers in exhibits - a third piece of software called [Geoserver][geoserver] is necessary.
 
 Geoserver is a high-performance, open-source geospatial server that runs in a Java Servlet Container like [Tomcat][tomcat], [Jetty][jetty], or [JBoss][jboss]. Basically, Geoserver is responsible for taking high-resolution GeoTIFF's - images that are keyed onto spatial coordinates - and selectively doling out just the section of the image that's necessary to fill the viewport as a user pans and zooms the map in Neatline. This is such a computationally-intensive task that it requires a separate, standalone piece of software.
 

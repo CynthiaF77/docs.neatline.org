@@ -9,9 +9,11 @@ layout: default
   - Use the form to define basic, high-level information about a project.
   - You can always go back and edit any of the default settings.
 
+## Exhibit Settings
+
 To start a new project, click on the "Create an Exhibit" button at the top of the main "Browse Exhibits" page. Use the form to define basic information about your project. Setting fields marked with an asterisk (*) are required for saving your new exhibit.
 
-Save your exhibit settings by clicking "Save Exhibit" at the bottom of the page. You can return to "Exhibit Settings" at any time to edit any of the default settings. 
+Save your exhibit settings by clicking "Save Exhibit" at the bottom of the page. You can return to **Exhibit Settings** at any time to edit any of the default settings. 
 
 * [Title*](#title)
 * [URL Slug*](#url-slug)
@@ -74,7 +76,7 @@ For more, see Working with Neatline Plugins: [SIMILE Timeline](working-with-the-
 
 ## Enabled Spatial Layers
 
-The base layers that are available in the exhibit. All of these layers will be accessible by way of the "layer switcher" tool displayed in the top right corner of the map in the editing environment and public view. Like with the "Widgets" field, click on the input to display a list of layers, any of which can be clicked and added to the list of selections. To remove, click the "x" to the left of the layer name.
+The base layers that are available in the exhibit. All of these layers will be accessible by way of the "layer switcher" tool displayed in the top right corner of the map in the editing environment and public view. Like with the **Widgets** field, click on the input to display a list of layers, any of which can be clicked and added to the list of selections. To remove, click the "x" to the left of the layer name.
 
 ![Screenshot of selecting enabled spatial layers](images/enabled-spatial-layers.png)
 
@@ -94,7 +96,7 @@ The image url for a static image background layer. For more details on creating 
 
 ## Zoom Levels
 
-The total number of available zoom levels for your exhibit when using a static image background layer. The default zoom level is 20. You can further adjust related exhibit view settings from the "Style" tab within the Exhibit Editor. 
+The total number of available zoom levels for your exhibit when using a static image background layer. The default zoom level is 20. You can further adjust related exhibit view settings from the [**Styles Tab**](exhibit-styles-tab.html) within the **Exhibit Editor**. 
 
 ![Screenshot of Zoom Levels field](images/settings-zoom.png)
 
@@ -106,7 +108,7 @@ The location of a web-accessible Web Map Service server like Geoserver. This fie
 
 `http://libsvr35.lib.virginia.edu/geoserver/hotchkiss/wms`
 
-**Note:** When using the WMS Address and Layer fields, select the option 'None (Image or WMS as Deafult)’ for the "Default Spatial Layer." For more details on using these settings to create a custom map default layer, see [here](map-based-exhibits.html#using-a-custom-map-default-layer).
+**Note:** When using the **WMS Address** and **WMS Layer** fields, select the option 'None (Image or WMS as Deafult)’ for the "Default Spatial Layer." For more details on using these settings to create a custom map default layer, see [here](map-based-exhibits.html#using-a-custom-map-default-layer).
 
 ## WMS Layers
 
@@ -114,7 +116,7 @@ The specific WMS layer that you want assigned as the exhibit default spatial lay
 
 ![Screenshot of WMS Address and Layers fields](images/WMS-fields.JPG)
 
-**Note:** Only one WMS Layer can be included in the Exhibit Settings, see [Editing Imagery](style-tab-imagery.html) for including multiple custom map layers in your exhibit.
+**Note:** Only one WMS Layer can be included in the **Exhibit Settings**, see [Editing Imagery](style-tab-imagery.html) for including multiple custom map layers in your exhibit.
 
 ## Spatial Querying
 

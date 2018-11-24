@@ -9,16 +9,16 @@ layout: default
     * [Neatline Project Examples](what-is-neatline.html#neatline-project-examples)
 
 - [Neatline Architecture](neatline-from-10000-meters.html)
-    
-    * [Omeka - standards-compliant metadata](neatline-from-10000-meters.html#omeka-standards-compliant-metadata)
-    * [Neatline - interactive map-making environment](neatline-from-10000-meters.html#neatline-interactive-map-making-environment)
-    * [Geoserver - high-performance map server](neatline-from-10000-meters.html#geoserver-high-performance-map-server)
+    * [Omeka: Standards-compliant Metadata](neatline-from-10000-meters.html#omeka-standards-compliant-metadata)
+    * [Neatline: Interactive Map-making Environment](neatline-from-10000-meters.html#neatline-interactive-map-making-environment)
+    * [Geoserver: High-performance Map Server](neatline-from-10000-meters.html#geoserver-high-performance-map-server)
     
 - [Installing Neatline](installing-neatline.html)
     * [Before you start](installing-neatline.html#before-you-start)
     * [Installing Omeka](installing-neatline.html#installing-omeka)
-    * [Installing Neatline](installing-neatline.html#installing-neatline)
-    * [Configuring the Neatline Plugin](installing-neatline.html#configuring-the-neatline-plugin)
+    * [Installing Neatline](installing-neatline.html#installing-nl)
+        + [NEW for Neatline 2.5.2](installing-neatline.html#new-for-neatline-252)
+        + [Configuring the Neatline Plugin (for version 2.5.2)](installing-neatline.html#configuring-nlplugin)
     * [Installing Geoserver](installing-neatline.html#installing-geoserver)
 
 - [Upgrading Neatline to 2.0](upgrading-to-v2.html)
@@ -29,9 +29,10 @@ layout: default
 ## Working with Exhibits
 
 - [Exhibits Overview](exhibits-overview.html)
-    * [Exhibits overview](exhibits-overview.html#exhibits-overview)
+    * [Exhibits Overview](exhibits-overview.html#exhibits-overview)
 
 - [Creating New Exhibits](creating-exhibits.html)
+    * [Exhibit Settings](creating-exhibits.html#exhibit-settings)
     * [Title](creating-exhibits.html#title)
     * [URL Slug](creating-exhibits.html#url-slug)
     * [Narrative](creating-exhibits.html#narrative)
@@ -58,8 +59,10 @@ layout: default
 - [Managing Exhibits](managing-exhibits.html)
     * [Exhibit Title](managing-exhibits.html#exhibit-title)
     * [Public View](managing-exhibits.html#public-view)
+    * [Fullscreen View](managing-exhibits.html#fullscreen-view)
     * [Exhibit Settings](managing-exhibits.html#exhibit-settings)
-    * [Import Omeka Items](managing-exhibits.html#import-omeka-items)
+    * [Import Items](managing-exhibits.html#import-items)
+    * [Duplicate](managing-exhibits.html#duplicate)
     * [Delete](managing-exhibits.html#delete)
 
 - [Managing User Permissions](user-permissions.html)
@@ -137,6 +140,8 @@ layout: default
 - [Records Overview](records-overview.html)
 
 - [Creating New Records](creating-records.html)
+
+- [Importing Omeka Items](importing-omeka-items.html)
 
 - [Searching Records](searching-records.html)
 

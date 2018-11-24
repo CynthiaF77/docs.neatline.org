@@ -4,11 +4,17 @@ layout: default
 
 # Map-based Exhibits 
 
-Map-based exhibits are built on top of geospatial layers - OpenStreetMap, the Google API layers, Stamen Design layers, or completely custom tile sets delivered as [WMS layers][wms], [MBTiles][mbtiles], or any other layer format supported by the [OpenLayers][openlayers] mapping library. Out of the box, Neatline comes with a core collection of general-purpose spatial layers, and makes it easy to add custom layers if you need something different.
+## At a glance
+
+- Map-based exhibits are built on top of geospatial layers. 
+- Neatline comes with a core collection of general-purpose spatial layers (OpenStreetMap, Google API layers, Stamen Design layers) that you can use as the base of your exhibit:
+    * [Using the Provided Spatial Layers](#using-the-provided-spatial-layers)
+- Neatline exhibits can also be customized, using completely custom tile sets delivered as [WMS layers][wms], [MBTiles][mbtiles], or any other layer format supported by the [OpenLayers][openlayers] mapping library: 
+    * [Using a Custom Map Default Layer](#using-a-custom-map-default-layer)
 
 ## Using the Provided Spatial Layers: 
 
-To create a map-based exhibit, follow the instructions for [Creating New Exhibits](creating-exhibits.html), using the following Exhibit Settings:
+To create a map-based exhibit, follow the instructions for [Creating New Exhibits](creating-exhibits.html), using the following **Exhibit Settings**:
 
 ### Enabled Spatial Layers {#enabled-spatial-layers-1}
 
@@ -24,7 +30,7 @@ Select a default spatial layer for your exhibit by clicking on the input to disp
 
 ## Using a Custom Map Default Layer: 
 
-Neatline exhibits can be customized using georectified historical maps or custom base layers, by publishing the layers to the web using a piece of software called [Geoserver](geoserver), an open-source geospatial server that does the computationally-intensive work of piping the georeferenced image tiles into the Neatline exhibits.
+Neatline exhibits can be customized using georectified historical maps or custom base layers, by publishing the layers to the web using a piece of software called [Geoserver](geoserver), an open-source geospatial server that does the computationally-intensive work of piping the georeferenced image tiles into the Neatline exhibits. See [Installing Geoserver](installing-neatline.html#installing-geoserver) for more details.
 
 This option is especially useful for historic exhibits, where the contemporary default map layers may not accurately depict historic conditions. Georeferenced spatial layers also provide a method of bringing in other types of geographic spatial data you may have for your exhibit.
 
@@ -36,9 +42,9 @@ You may still want one or more of the provided spatial layers to be available in
 
 ### Default Spatial Layer 
 
-1. Select the option 'None (Image or WMS as Deafult)' for the Default Spatial Layer.
+1. Select the option 'None (Image or WMS as Deafult)' for the **Default Spatial Layer**.
 
-2. Load your georeferenced map into Geoserver as a WMS (Web Map Services) layer. In the Neatline Exhibit Settings, fill in the the top-level WMS address for the GeoServer installation (this always ends with /wms, and might look something like localhost:8080/GeoServer/wms). In the field for WMS Layers, enter the layer that you want assigned as the exhibit default spatial layer. 
+2. Load your georeferenced map into Geoserver as a WMS (Web Map Services) layer. In the Neatline **Exhibit Settings**, fill in the the top-level **WMS address** for the GeoServer installation (this always ends with /wms, and might look something like localhost:8080/GeoServer/wms). In the field for **WMS Layers**, enter the layer that you want assigned as the exhibit default spatial layer. 
 
 (**Note:** only one WMS Layer can be included in the Exhibit Settings, see [Editing Imagery](style-tab-imagery.html) for including multiple custom map layers in your exhibit.)
 
