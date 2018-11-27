@@ -27,11 +27,15 @@ To view the [**Enabled Spatial Layers**](creating-exhibits.html#enabled-spatial-
 
 ## Records
 
+![Screenshot of Records tab](images/records-tab.png)
+
 Select the **Records** tab to create, search and edit the Neatline records in your exhibit. **Records** are the primary content of the Neatline exhibit, including any vector annotations, timeline and waypoint context, WMS overlay layers, and text annotations in the exhibit narrative. 
 
 For more on **Records**, see the related documentation: [Records Overview](records-overview.html), [Creating New Records](creating-records.html), [Importing Omeka Items](importing-omeka-items.html), [Searching Records](searching-records.html)
 
 ## Styles
+
+![Screenshot of Styles tab selected](images/styles-tab.png)
 
 Select the **Styles** tab to edit higher-level settings for your exhibit. This section includes the following settings:
 
@@ -44,6 +48,8 @@ Select the **Styles** tab to edit higher-level settings for your exhibit. This s
 For details on these settings, see [Exhibit Styles Tab](exhibit-styles-tab.html) and [Using Neatline Stylesheets](neatline-stylesheets.html).
 
 ## Plugins
+
+![Screenshot of plugins tab selected](images/editor-plugins-tab.png)
 
 Select the **Plugins** tab to display a drop-down list of the [enabled widgets](creating-exhibits.html#widgets) in your exhibit. Select a widget name to edit it's higher-level settings. If this tab is not visible, there are no widgets enabled in your exhibit.
 
