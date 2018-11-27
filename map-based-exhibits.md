@@ -34,7 +34,7 @@ Neatline exhibits can be customized using georectified historical maps or custom
 
 This option is especially useful for historic exhibits, where the contemporary default map layers may not accurately depict historic conditions. Georeferenced spatial layers also provide a method of bringing in other types of geographic spatial data you may have for your exhibit.
 
-**Note: Using this method produces an exhibit with your custom WMS layer as the default layer, with a blank (white) background beyond the boundaries of your custom map. If your exhibit uses multiple historic or custom map layers, and/or you prefer to view your custom map as an overlay to the provided spatial layers (like OpenStreetMap), see the documentation section for Creating Custom Map Overlays and [Editing Imagery](style-tab-imagery.html)**
+**Note: Using this method produces an exhibit with your custom WMS layer as the default layer, with a blank (white) background beyond the boundaries of your custom map. If your exhibit uses multiple historic or custom map layers, and/or you prefer to view your custom map as an overlay to the provided spatial layers (like OpenStreetMap), see the documentation section for [Editing Imagery](style-tab-imagery.html)**
 
 ### Enabled Spatial Layers 
 
@@ -49,6 +49,8 @@ You may still want one or more of the provided spatial layers to be available in
 (**Note:** only one WMS Layer can be included in the Exhibit Settings, see [Editing Imagery](style-tab-imagery.html) for including multiple custom map layers in your exhibit.)
 
 ![Screenshot of fields filled for custom map default](images/custom-map-default.png)
+
+**Related:** [Creating New Exhibits](creating-exhibits.html), [Installing Geoserver](installing-neatline.html#installing-geoserver), [Image-based Exhibits](image-based-exhibits.html), [Editing Record Imagery](style-tab-imagery.html), [Editing Record Visibility](style-tab-visibility.html)
 
 [geoserver]: http://geoserver.org/
 [mbtiles]: http://www.mapbox.com/developers/mbtiles/

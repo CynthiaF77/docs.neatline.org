@@ -19,7 +19,7 @@ These high-level configuration options are defined using the [**Exhibit Settings
 
 Most of the work happens in the editor. You might spend just a couple minutes in the **Exhibit Settings** form, and a couple months building out the content in the editing environment.
 
-**Continue reading the documentation on working with exhibits:**
+**Continue reading documentation on Neatline exhibits:**
 
 - [**Creating New Exhibits**](creating-exhibits.html)
 - [**Map-based Exhibits**](map-based-exhibits.html)

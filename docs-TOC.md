@@ -66,8 +66,8 @@ layout: default
     * [Delete](managing-exhibits.html#delete)
 
 - [Managing User Permissions](user-permissions.html)
-    * [User permissions overview](user-permissions.html#user-permissions-overview)
-    * [Working with user “groups”](user-permissions.html#working-with-user-groups)
+    * [User Levels and Access](user-permissions.html#user-levels-and-access)
+    * [Working with User “Groups”](user-permissions.html#working-with-user-groups)
     
 - [Publishing Exhibits](publishing-exhibits.html)
 
@@ -124,8 +124,8 @@ layout: default
 - [Exhibit Styles Tab](exhibit-styles-tab.html)
     * [Stylesheet Overview](exhibit-styles-tab.html#stylesheet-overview)
     * [Default Map Focus](exhibit-styles-tab.html#default-map-focus) 
-    * [Default Map Zoom](exhibit-styles-tab.html#default-map-zoom)
-    * [Restricted Map Extent](exhibit-styles-tab.html#default-map-extent) 
+    * [Default Map Zoom](exhibit-styles-tab.html#default-map-focus)
+    * [Restricted Map Extent](exhibit-styles-tab.html#restricted-map-extent) 
     * [Minimum Map Zoom](exhibit-styles-tab.html#minimum-map-zoom)
     * [Maximum Map Zoom](exhibit-styles-tab.html#maximum-map-zoom)
     

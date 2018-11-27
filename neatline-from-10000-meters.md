@@ -5,12 +5,9 @@ layout: default
 
 ## At a glance
 
-  - Neatline is built as a set of plugins for Omeka.
-    * [Omeka: Standards-compliant Metadata](neatline-from-10000-meters.html#omeka-standards-compliant-metadata)
-  - Neatline adds an interactive map-making environment that makes it possible to create Neatline exhibits, each of which is populated with its own collection of records, which can optionally be synchronized with items in the underlying Omeka collection.
-    * [Neatline: Interactive Map-making Environment](neatline-from-10000-meters.html#neatline-interactive-map-making-environment)
-  - Neatline can be used out-of-the-box with modern geography base layers like [OpenStreetMap][osm] or the [Google][google] API layers. If you want to add custom base layers or overlays, you'll need to host them using a piece of software called [Geoserver][geoserver].
-    * [Geoserver: High-performance Map Server](neatline-from-10000-meters.html#geoserver-high-performance-map-server)
+- Neatline is built as a set of plugins for [Omeka](https://omeka.org/), a web publishing framework designed for scholars and archivists. 
+- Neatline adds an interactive map-making environment that makes it possible to create Neatline exhibits, each of which is populated with its own collection of records, which can optionally be synchronized with items in the underlying Omeka collection. 
+- Neatline can be used out-of-the-box with modern geography base layers like [OpenStreetMap][osm] or the [Google][google] API layers. If you want to add custom base layers or overlays, you'll need to host them using a piece of software called [Geoserver][geoserver]. 
 
 ## Omeka: Standards-compliant Metadata
 

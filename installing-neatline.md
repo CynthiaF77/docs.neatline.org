@@ -11,7 +11,7 @@ layout: default
     * [Installing Neatline](#installing-nl)
         + [NEW for Neatline 2.5.2](#new-for-neatline-252)
         + [Configuring the Neatline Plugin (for version 2.5.2)](#configuring-nlplugin)
-  - For projects that need to incorporate custom imagery, a third piece of software called [Geoserver][geoserver] is necessary.
+  - For projects that incorporate custom imagery, a third piece of software called [Geoserver][geoserver] is necessary.
     * [Installing Geoserver](#installing-geoserver)
 
 ## Before you start
@@ -72,7 +72,7 @@ Geoserver is a high-performance, open-source geospatial server that runs in a Ja
 
 The [OpenGeo Suite][suite] (community edition) maintains packages for several of the more popular operating systems to ease the management of upgrading and configuring GeoServer. That said, the process of installing and maintaining a Java server environment generally requires quite a bit more technical expertise than what's needed to get up and running with Omeka and Neatline. Geoserver is built on top of a more complicated suite of technologies, and tends to need a higher level of ongoing maintenance.
 
-If you don't have the resources to manage your own installation, there are a couple of options. First, if you're associated with a a college or university, check to see if your institution could provide assistance - managing complex software like Geoserver is often the sort of thing that falls under the purview of central IT services. Second, you can always purchase Geoserver hosting from a commercial provider - we've had good experiences with [AcuGIS][acugis], which actually provides all-in-one Geoserver, Omeka, and Neatline hosting (they have a one-click Neatline installer, and offer discounts for academic users). Check out the [FAQ][acuneatlinefaq] for more information.
+If you don't have the resources to manage your own installation, there are a couple of options. First, if you're associated with a a college or university, check to see if your institution could provide assistance - managing complex software like Geoserver is often the sort of thing that falls under the purview of central IT services. Second, you can always purchase Geoserver hosting from a commercial provider - we've had good experiences with [AcuGIS][acugis], which actually provides all-in-one Geoserver, Omeka, and Neatline hosting (they have a one-click Neatline installer, and offer discounts for academic users). Check out their [FAQ][acuneatlinefaq] for more information.
 
 [suite]: http://opengeo.org/products/suite/community/
 [acugis]: http://www.acugis.com/neatline-hosting.htm

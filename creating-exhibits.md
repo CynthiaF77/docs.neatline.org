@@ -129,3 +129,5 @@ This is selected by default, to continually render you map orientation and visib
 If left unchecked, the exhibit will be visible in the Omeka administrative interface, but not on the public site. Check the box to publish the exhibit to the web. This selection is unchecked (not public) by default. For more, see [Publishing Exhibits](publishing-exhibits.html).
 
 ![Screenshot of public field](images/settings-public.png)
+
+**Related:** [Map-based Exhibits](map-based-exhibits.html), [Image-based Exhibits](image-based-exhibits.html), [Managing Exhibits](managing-exhibits.html), [Managing User Permissions](user-permissions.html), [Publishing Exhibits](publishing-exhibits.html)

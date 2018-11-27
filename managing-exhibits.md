@@ -13,7 +13,7 @@ layout: default
 - Click [**Duplicate**](#duplicate) to create a copy of the exhibit.
 - Click [**Delete**](#delete) to permanently remove the exhibit.
 
-Once you've created one or more exhibits, the "Browse Exhibits" view makes it possible to find, filter, edit, and display them. There are a few options available for each of the exhibit listings:
+Once you've created one or more exhibits, the "Browse Exhibits" view makes it possible to find, filter, edit, and display them. There are a list of options available for managing individual exhibits:
 
 ![Screenshot of exhibit options in Browse Exhibits view](images/managing-exhibits.png)
 
@@ -23,11 +23,11 @@ Click on the exhibit title to open up the editing environment for the exhibit, w
 
 ## Public View
 
-Click here to view the exhibit as it appears on the public-facing version of the website. This view displays your exhibit's [**Narrative**](creating-exhibits.html#narrative), if included in the **Exhibit Settings**. For more on publishing your Neatline exhibit, see [here](publishing-exhibits.html).
+Click here to view the exhibit as it appears on the public-facing version of the website. This view displays your exhibit's [**Narrative**](creating-exhibits.html#narrative), if included in the **Exhibit Settings**. You can preview the public view of your Neatline exhibit even if your exhibit is not published. For more on publishing your Neatline exhibit, see [here](publishing-exhibits.html).
 
 ## Fullscreen View
 
-Click here to view the public-facing fullscreen version of your exhibit. Unlike the **Public Vew**, the **Fullscreen View** does not include the aesthetics of your Omeka theme, or your exhibit's [**Narrative**](creating-exhibits.html#narrative). 
+Click here to view the public-facing fullscreen version of your exhibit. Unlike the **Public Vew**, the **Fullscreen View** does not include the aesthetics of your [Omeka Theme](https://omeka.org/classic/themes/), or your exhibit's [**Narrative**](creating-exhibits.html#narrative). 
 
 ## Exhibit Settings
 
@@ -46,3 +46,5 @@ Once created, the duplicate exhibit will exisit as a completely separate exhibit
 ## Delete
 
 Click here to permanently delete the exhibit. You'll get a pop-up message asking for confirmation. **Important**: When an exhibit is deleted, it is _completely_ removed from the database - along with all the records that belonged to it - and cannot be recovered.
+
+**Related:** [Creating New Exhibits](creating-exhibits.html), [Managing User Permissions](user-permissions.html), [Publishing Exhibits](publishing-exhibits.html), [Importing Omeka Items](importing-omeka-items.html)

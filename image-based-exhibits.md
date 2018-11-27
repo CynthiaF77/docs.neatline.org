@@ -38,3 +38,5 @@ Provide a value for **Zoom Levels**. Consider the size of your static image file
 Load your "faux-georeferenced" static image into Geoserver as a WMS (Web Map Services) layer. In the Neatline **Exhibit Settings**, fill in the the top-level **WMS address** for the GeoServer installation (this always ends with /wms, and might look something like localhost:8080/GeoServer/wms). In the field for **WMS Layers**, enter the layer that you want assigned as the exhibit base layer:
 
 ![Screenshot using faux-georeferenced image](images/WMS-fields.JPG)
+
+**Related:** [Creating New Exhibits](creating-exhibits.html), [Editing Record Imagery](style-tab-imagery.html), [Editing Record Visibility](style-tab-visibility.html), [Installing Geoserver](installing-neatline.html#installing-geoserver)
