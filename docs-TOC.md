@@ -71,10 +71,6 @@ layout: default
     
 - [Publishing Exhibits](publishing-exhibits.html)
 
-## Creating Custom Image Layers
-
-- [TBD]()
-
 ## Working with Neatline Plugins
 
 - [SIMILE Timeline](working-with-the-simile-timeline-widget.html)
@@ -138,11 +134,8 @@ layout: default
 ## Records
 
 - [Records Overview](records-overview.html)
-
 - [Creating New Records](creating-records.html)
-
 - [Importing Omeka Items](importing-omeka-items.html)
-
 - [Searching Records](searching-records.html)
 
 ## Editing Neatline Records
@@ -153,23 +146,15 @@ layout: default
 ## Map Tab
 
 - [Drawing Vector Annotations](map-tab-drawing-geometry.html)
-
 - [Editing Vector Annotations](map-tab-editing-geometry.html)
-
 - [Importing SVG Documents](map-tab-importing-svg.html)
 
 ## Style Tab
 
 - [Editing Groups](style-tab-groups.html)
-
 - [Editing Colors](style-tab-colors.html)
-
 - [Editing Opacities](style-tab-opacities.html)
-
 - [Editing Dimensions](style-tab-dimensions.html)
-
 - [Editing Dates](style-tab-dates.html)
-
 - [Editing Imagery](style-tab-imagery.html)
-
 - [Editing Visibility](style-tab-visibility.html)

@@ -6,7 +6,7 @@ layout: default
 
 ## At a glance
 
-- Click the **Styles** tab in the editor to edit higher-level settings for your exhibit
+- Click the **Styles** tab in the editor to edit higher-level settings for your exhibit.
 - These fields define over-all view settings for your exhibit.
 - You can return to these settings at any time to make changes.
 - Jump to:

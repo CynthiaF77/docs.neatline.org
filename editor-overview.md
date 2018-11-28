@@ -17,13 +17,13 @@ The Neatline editor is the interface where you build the content of your exhibit
 
 ![Screenshot of Neatline editing environment](images/editor-overview.png)
 
-On opening the exhibit editor, your selected [**Default Spatial Layer**](creating-exhibits.html#default-spatial-layer) will appear. For map layers, the default location is set at the coordinates 0° N, 0° E (to change your exhibit's default locations, see [here](exhibit-styles-tab.html#default-map-focus).)
+On opening the exhibit editor, your selected [**Default Spatial Layer**](creating-exhibits.html#default-spatial-layer) will appear. For map layers, the default location is set at the coordinates 0° N, 0° E (to change your exhibit's default location, see [here](exhibit-styles-tab.html#default-map-focus).)
 
 To view the [**Enabled Spatial Layers**](creating-exhibits.html#enabled-spatial-layers) in your exhibit, click on the layers icon on the right side of the page, and select a layer option to change the visible map base layer:
 
 ![Screenshot layers icon](images/layers-icon.png)   ![Screenshot layers icon selected](images/layers-icon-open.png)
 
-**Note:** The [**Default Spatial Layer**](creating-exhibits.html#default-spatial-layer) can only be set in the [Exhibit Settings](creating-exhibits.html#exhibit-settings). 
+**Note:** The [Default Spatial Layer](creating-exhibits.html#default-spatial-layer) and [Enabled Spatial Layers](creating-exhibits.html#enabled-spatial-layers) can only be set in the [Exhibit Settings](creating-exhibits.html#exhibit-settings). 
 
 ## Records
 

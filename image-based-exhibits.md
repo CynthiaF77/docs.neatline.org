@@ -4,14 +4,17 @@ layout: default
 
 # Image-based Exhibits
 
-Exhibits can be built on top of any static, web-accessible image (.jpg, .png, etc). This makes it possible to use Neatline to create interactive editions of paintings, drawings, photographs, documents, and anything else that has some kind of two-dimensional, visual instantiation.
+## At a glance
+
+- Exhibits can be built on top of any static, web-accessible image (.jpg, .png, etc). 
+- This makes it possible to use Neatline to create interactive editions of paintings, drawings, photographs, documents, and anything else that has some kind of two-dimensional, visual instantiation.
 
 There are two methods of creating image-based exhibits, depending on your needs:
 
 1. [Using a regular, static image](#static-image): This method is easy to set up and doesn't require any additional server infrastructure. However, there’s a fundamental limitation - since the entire image has to be loaded in bulk into the in-browser application (as compared to the spatial layers, which are loaded dynamically depending on the focus and zoom of the map), the performance of the exhibit will get worse as the image gets larger. Things work well if you’re working with a more or less normally-sized image (up to around 2-3000 pixels in height/width), but after that things start to get unacceptably sluggish.
 
 
-2. [Creating a custom WMS layer](#wms-layers): If you need to use a really high-resolution image, there’s an effective workaround that involes essentially tricking Neatline into thinking the image is a spatial layer - you can “faux-georeference” the static image (just assign it random, meaningless spatial coordinates), load it into [Geoserver](geoserver.org) as a WMS layer, and then import it into an exhibit as the sole base layer, with no map underneath. The image will be presented just as if you were using a regular static file, but you’ll have all the scability that comes with a dedicated tile server.
+2. [Creating a custom WMS layer](#wms-layers): If you need to use a really high-resolution image, there’s an effective workaround that involes essentially tricking Neatline into thinking the image is a spatial layer - you can “faux-georeference” the static image (just assign it random, meaningless spatial coordinates), load it into [Geoserver][geoserver] as a WMS layer, and then import it into an exhibit as the sole base layer, with no map underneath. The image will be presented just as if you were using a regular static file, but you’ll have all the scability that comes with a dedicated tile server.
 
 ## Creating an Image-based Exhibit
 
@@ -40,3 +43,5 @@ Load your "faux-georeferenced" static image into Geoserver as a WMS (Web Map Ser
 ![Screenshot using faux-georeferenced image](images/WMS-fields.JPG)
 
 **Related:** [Creating New Exhibits](creating-exhibits.html), [Editing Record Imagery](style-tab-imagery.html), [Editing Record Visibility](style-tab-visibility.html), [Installing Geoserver](installing-neatline.html#installing-geoserver)
+
+[geoserver]: http://geoserver.org/ "GeoServer"
